@@ -1,7 +1,7 @@
 html, body {
     margin: 0;
     font-family: sans-serif;
-    background-color: lightyellow;
+    background-color: white;
     min-width: 300px;
 }
 
@@ -11,7 +11,7 @@ html, body {
     left: 0;
     width: 300px;
     height: 100%;
-    background-color: rgb(255, 255, 164);
+    background-color: rgb(253, 253, 163);
 }
 
 #navbar header {
@@ -148,24 +148,6 @@ code {
     }
 }
 
-
-@media only screen and (max-width: 460px) {
-    #code-width {
-        width: 100%;
-        margin: 0;
-        margin-left: -22px;
-    }
-}
-
-@media only screen and (max-width: 410px) {
-    #code-width {
-        width: 105%;
-        padding-left: 15px;
-        margin: 0;
-        margin-left: -24px;
-        white-space: pre-wrap;
-    }
-}
 
 /* Go to Top, Button (controlled with JS) */
 #myBtn {
